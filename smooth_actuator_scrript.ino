@@ -20,8 +20,6 @@ input = input * 100; // multply input by 100
 // smoothing input
 
 inputsmoothed = (input * 0.05) + (inputprevious * 0.95); // smooth input value by 0.5:0.95 ratio
-
-
 inputprevious = inputsmoothed; // prevuous value == new value
 
 // end of smoothing
